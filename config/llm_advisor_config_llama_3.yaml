@@ -1,0 +1,9 @@
+# config/llm_advisor_config_llama_3.yaml
+
+enabled: true
+
+model_path: "./models/Meta-Llama-3-8B-Instruct"
+
+use_gpu: false
+
+max_new_tokens: 300

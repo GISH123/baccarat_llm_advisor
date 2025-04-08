@@ -1,0 +1,4 @@
+enabled: true
+use_gpu: true
+max_new_tokens: 600
+model_path: ./models/Velvet-14B

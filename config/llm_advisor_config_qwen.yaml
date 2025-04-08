@@ -1,0 +1,5 @@
+# config/llm_advisor_config_qwen.yaml
+enabled: true
+model_path: "./models/qwen2-7b-instruct"  # Or a local path like "./models/llm/qwen-7b-instruct"
+use_gpu: true
+max_new_tokens: 600

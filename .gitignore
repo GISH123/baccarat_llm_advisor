@@ -1,0 +1,26 @@
+# Ignore everything inside models/ by default
+models/*
+
+# Allow subdirectories so git keeps the folder structure
+!models/**/
+
+# Allow small important files (configs, scripts, docs)
+!models/**/*.yaml
+!models/**/*.json
+!models/**/*.md
+!models/**/*.txt
+!models/**/*.py
+
+# Ignore all large model files recursively
+models/**/*.safetensors
+models/**/*.gguf
+models/**/*.bin
+models/**/*.pth
+models/**/**/*.safetensors
+models/**/**/*.gguf
+models/**/**/*.bin
+models/**/**/*.pth
+
+
+# Ignore logs folder completely
+logs/
